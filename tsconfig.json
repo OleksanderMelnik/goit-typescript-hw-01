@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "rootDir": "./srs", 
+    "outDir": "./dist",
+    "target": "es2016",                                  
+    "lib": ["dom", "ES2021"],                                                  
+    "experimentalDecorators": true,                  
+    "emitDecoratorMetadata": true,                   
+    "module": "es2020",                              
+    "moduleResolution": "node",                   
+    "preserveConstEnums": true,                       
+    "esModuleInterop": true,                
+    "forceConsistentCasingInFileNames": true,         
+    "strict": true,                                     
+    "strictNullChecks": true,                       
+    "skipLibCheck": true,
+    "sourceMap": true                      
+  },
+  "include": ["**/*.ts"]
+}
